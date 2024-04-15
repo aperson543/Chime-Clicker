@@ -198,22 +198,22 @@ ga('send', 'pageview');
 							<div id="game-stats">
 								<div id="defenseStat-value" class="game-stat game-stat-top game-stat-left">
 									<div class="game-stat-wrapper" data-toggle="tooltip" data-title="Chimes collected per click.">
-										<div class="game-stat-name">{{game.getStatNameVariable('Defense', 100)}}</div> {{prettyIntCompact(game.defenseStat)}}
+										<div class="game-stat-name">{{game.getStatNameVariable('Defense', 100000000)}}</div> {{prettyIntCompact(game.defenseStat)}}
 									</div>
 								</div>
 								<div id="damageStat-value" class="game-stat game-stat-top game-stat-right {{game.spells['Ignite'].status == ACTIVE ? 'ignite-active' : '';}}">
 									<div class="game-stat-wrapper" data-toggle="tooltip" data-title="Damage dealt per click.">
-										<div class="game-stat-name">{{game.getStatNameVariable('Damage', 100)}}</div> {{prettyIntCompact(game.damageStat)}}
+										<div class="game-stat-name">{{game.getStatNameVariable('Damage', 100000000000)}}</div> {{prettyIntCompact(game.damageStat)}}
 									</div>
 								</div>
 								<div id="movespeedStat-value" class="game-stat game-stat-bottom game-stat-left">
 									<div class="game-stat-wrapper" data-toggle="tooltip" data-title="Chime clicks per second.">
-										<div class="game-stat-name">{{game.getStatNameVariable('Move speed', 100)}}</div> {{prettyIntCompact(game.movespeedStat)}}
+										<div class="game-stat-name">{{game.getStatNameVariable('Move speed', 10000000000)}}</div> {{prettyIntCompact(game.movespeedStat)}}
 									</div>
 								</div>
 								<div id="attackrateStat-value" class="game-stat game-stat-bottom game-stat-right">
 									<div class="game-stat-wrapper" data-toggle="tooltip" data-title="Damage clicks per second.">
-										<div class="game-stat-name">{{game.getStatNameVariable('Attack rate', 100)}}</div> {{prettyIntCompact(game.attackrateStat)}}
+										<div class="game-stat-name">{{game.getStatNameVariable('Attack rate', 100000000000)}}</div> {{prettyIntCompact(game.attackrateStat)}}
 									</div>
 								</div>
 							</div>
